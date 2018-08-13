@@ -21,4 +21,8 @@ git reset HEAD <file> 撤销暂缓区的修改到工作区
 git rm <file> 删除一个文件
 git checkout -- <file> 可以撤销修改 也可以恢复误删的文件
 
+git remote add origin https://github.com/zhanzstudy/git.git 添加远程仓库到本地
+
+git push -u origin master 推送到远程仓库 第二次可以不带-u参数
+
 
