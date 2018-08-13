@@ -5,4 +5,6 @@ sudo apt-get install git
 git init  通过此命令把目录变成git可以管理的仓库
 git add <file>  把文件添加到仓库
 git commit -m <message>  把文件提交到仓库， message填写注释
+git status 查看当前仓库状态
+git diff <file> 比较文件区别查看修改内容
 
