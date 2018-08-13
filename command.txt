@@ -35,3 +35,7 @@ git branch 查看当前分支
 git merge dev 合并指定分支到当前分支
 gid branch -d dev 删除dev分支
 git log --graph 可以查看分支合并情况
+git stats 可以把当前工作现场’储藏‘起来 等以后恢复现场后继续个工作  
+git stash pop 恢复的同时把stash内容页删除 
+git stash list 查看stash内容
+git stash apply 恢复的同时不删除stash内容
