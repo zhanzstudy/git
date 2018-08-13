@@ -7,4 +7,8 @@ git add <file>  把文件添加到仓库
 git commit -m <message>  把文件提交到仓库， message填写注释
 git status 查看当前仓库状态
 git diff <file> 比较文件区别查看修改内容
+git log 显示git提交历史记录
+git reset --hard HEAD^ 回退上一个版本
+git reset --hard commit_id 回到某一个版本
+git reflog 记录每次命令，可以知道commit id
 
