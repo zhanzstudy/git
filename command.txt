@@ -39,3 +39,8 @@ git stats 可以把当前工作现场’储藏‘起来 等以后恢复现场后
 git stash pop 恢复的同时把stash内容页删除 
 git stash list 查看stash内容
 git stash apply 恢复的同时不删除stash内容
+
+git remote -v查看远程库信息 
+git push origin master 推送分支
+git pull 抓取分支
+git rebase 把本地未push的分叉提交历史整理成直线
