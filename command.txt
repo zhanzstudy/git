@@ -34,4 +34,4 @@ git checkout dev 切换到dev分支
 git branch 查看当前分支
 git merge dev 合并置顶分支到当前分支
 gid branch -d dev 删除dev分支
-
+git log --graph 可以查看分支合并情况
