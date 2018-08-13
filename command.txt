@@ -28,3 +28,10 @@ git push -u origin master 推送到远程仓库 第二次可以不带-u参数
 git clone 克隆一个远程仓库到本地
 
 
+git checkout -b dev 创建dev分之并切换到dev分支
+git branch dev 创建dev分支
+git checkout dev 切换到dev分支
+git branch 查看当前分支
+git merge dev 合并置顶分支到当前分支
+gid branch -d dev 删除dev分支
+
